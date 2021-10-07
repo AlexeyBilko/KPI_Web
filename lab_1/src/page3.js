@@ -1,7 +1,7 @@
-import './index.css';
+import "./index.css";
 
-function App() {
-  return (
+function Page3(){
+    return(
       <main>
         <div className="container">
         <div className="header">
@@ -12,16 +12,16 @@ function App() {
         </div>
         <div className="left-top">
           <p>
-            Page 1 Content Page 1 Content Page 1 Content Page 1 Content Page 1
-            Content Page 1 Content
+            page 3 Content page 3 Content page 3 Content page 3 Content page 3
+            Content page 3 Content
           </p>
           <p>
-            Page 1 Content Page 1 Content Page 1 Content Page 1 Content Page 1
-            Content Page 1 Content
+            page 3 Content page 3 Content page 3 Content page 3 Content page 3
+            Content page 3 Content
           </p>
         </div>
         <div className="middle">
-          <h2>Page 1 Title</h2>
+          <h2>page 3 Title</h2>
           <p>
             Some text Some text Some text Some text Some text Some text Some text
             Some text Some text Some text Some text Some text Some text Some text
@@ -35,7 +35,7 @@ function App() {
         </div>
         <div className="right">
           <div className="menu">
-            <ul>
+          <ul>
               <li>
                 <a href="/" >Page 1</a>
               </li>
@@ -56,8 +56,8 @@ function App() {
         </div>
         <div className="left-bottom">
           <p>
-            Page 1 Content Page 1 Content Page 1 Content Page 1 Content Page 1
-            Content Page 1 Content
+            page 3 Content page 3 Content page 3 Content page 3 Content page 3
+            Content page 3 Content
           </p>
           <img
             className="image-leftside"
@@ -66,7 +66,7 @@ function App() {
           />
         </div>
         <div className="footer">
-        <div className="text_footer">
+          <div className="text_footer">
           <p>
             Some text Some text Some text Some text Some text Some text Some text
             Some text Some text Some text Some text Some text Some text Some text
@@ -80,7 +80,7 @@ function App() {
         </div>
       </div>
       </main>
-  );
+    )
 }
 
-export default App;
+export default Page3;
