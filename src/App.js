@@ -66,17 +66,17 @@ function App() {
           />
         </div>
         <div className="footer">
-        <div className="text_footer">
-          <p>
-            Some text Some text Some text Some text Some text Some text Some text
-            Some text Some text Some text Some text Some text Some text Some text
-            Some text Some text Some text Some text Some text Some text Some text
-            Some text Some text Some text Some text Some text Some text
-          </p>
-          </div>
-          <div className="Y">
-            <h2 className="Title">Some Y</h2>
-          </div>
+          <div className="text_footer">
+            <p>
+              Some text Some text Some text Some text Some text Some text Some text
+              Some text Some text Some text Some text Some text Some text Some text
+              Some text Some text Some text Some text Some text Some text Some text
+              Some text Some text Some text Some text Some text Some text
+            </p>
+            </div>
+            <div className="Y">
+              <h2 className="Title">Some Y</h2>
+            </div>
         </div>
       </div>
       </main>
