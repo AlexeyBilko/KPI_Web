@@ -3,12 +3,12 @@ body {
 }
 
 .container {
-  height: 100vh;
-  max-height: fit-content;
+  min-height: 100vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 182px 180px min-content 182px;
+  grid-auto-rows: min-content;
   grid-template-areas:
     "header header header"
     "left-top middle right"
@@ -35,7 +35,6 @@ body {
 .middle {
   background-color: white;
   grid-area: middle;
-  grid-auto-flow: column;
   padding: 10px;
 }
 
@@ -50,8 +49,7 @@ body {
 }
 
 .X {
-  position: absolute;
-  top: 9%;
+  position: relative;
   left: 80%;
   width: 150px;
   height: 45px;
@@ -60,8 +58,7 @@ body {
 }
 
 .Y {
-  position: absolute;
-  top: 85%;
+  position: relative;
   left: 10%;
   width: 150px;
   height: 45px;
@@ -165,7 +162,7 @@ h2 {
 }
 
 .left-top {
-  background-color: rgb(240, 165, 130);
+  background-color: #c98a66;
   grid-area: left-top;
   padding: 3%;
 }
@@ -201,8 +198,8 @@ h2 {
 }
 
 .Y {
-  position: absolute;
-  top: 85%;
+  position: relative;
+  top: -100px;
   left: 10%;
   width: 150px;
   height: 45px;
