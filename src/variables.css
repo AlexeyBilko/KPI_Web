@@ -1,0 +1,10 @@
+:root {
+    --header-bg-color: rgb(152, 198, 216);
+    --footer-bg-color: rgb(152, 198, 216);
+    --left-top-bg-color: rgb(240, 165, 130);
+    --left-bottom-bg-color: rgb(101, 156, 79);
+    --middle-bg-color: white;
+    --right-bg-color: rgb(240, 165, 130);
+    --menu-main-color: rgb(240, 165, 130);
+    --white-elements: white;
+}
