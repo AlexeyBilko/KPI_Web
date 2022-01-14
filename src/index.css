@@ -44,6 +44,7 @@ body {
   grid-area: right;
 }
 
+
 .footer {
   background-color: var(--footer-bg-color);
   grid-area: footer;
@@ -86,9 +87,10 @@ body {
   margin-left: 40%;
 }
 
-.text_footer{
+.text_footer {
   margin-left: 34%;
 }
+
 .header p {
   margin-right: 25%;
 }
