@@ -31,6 +31,3 @@ jobs:
 
     - name: Build
       run: npm run build
-      
-    - name: Running CSS lint
-      run: npm run stylelint
