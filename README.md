@@ -1,3 +1,3 @@
 Web Lab 1
 Завдання - зверстати сторінку по макету
-Деплой - kpi-web.vercel.app
+Деплой - Click [here](kpi-web.vercel.app)
